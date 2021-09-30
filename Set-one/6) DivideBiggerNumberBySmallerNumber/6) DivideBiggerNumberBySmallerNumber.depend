@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1632648150 source:d:\coding\c-projects\6) dividebiggernumberbysmallernumber\main.c
+	<stdio.h>
+	<stdlib.h>
+

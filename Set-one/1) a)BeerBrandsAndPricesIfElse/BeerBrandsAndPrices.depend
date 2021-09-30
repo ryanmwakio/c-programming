@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1632639583 source:d:\coding\c-projects\beerbrandsandprices\main.c
+	<stdio.h>
+	<stdlib.h>
+

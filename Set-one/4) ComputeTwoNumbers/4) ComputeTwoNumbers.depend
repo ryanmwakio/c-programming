@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1632647184 source:d:\coding\c-projects\4) computetwonumbers\main.c
+	<stdio.h>
+	<stdlib.h>
+
