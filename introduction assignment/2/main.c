@@ -7,7 +7,7 @@ int main()
 
     //Get radius
     int radius;
-    printf("\n\tEnter the radius of the circle: ");
+    printf("\nEnter the radius of the circle: ");
     scanf("%d",&radius);
 
     //Calculate the area pi*r^2
@@ -16,7 +16,7 @@ int main()
     //Calculate circumference
     float circumference=pi*(radius*2);
 
-    printf("\n\tArea: %.2f | Circumference: %.2f\n",area,circumference);
+    printf("\n\tArea: %.2f \n\t Circumference: %.2f\n",area,circumference);
 
     return 0;
 }

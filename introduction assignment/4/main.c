@@ -7,10 +7,10 @@ int main()
     int base;
     int height;
 
-    printf("\n\tEnter the base of the triangle: ");
+    printf("\nEnter the base of the triangle: ");
     scanf("%d",&base);
 
-    printf("\n\tEnter the height of the triangle: ");
+    printf("\nEnter the height of the triangle: ");
     scanf("%d",&height);
 
     float area=0.5*base*height;
