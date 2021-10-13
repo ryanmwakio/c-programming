@@ -5,13 +5,13 @@ int main()
 {
     //Get the numbers
     int Number1, Number2, Number3;
-    printf("Enter the first number: ");\
+    printf("Enter the first number: ");
     scanf("%d",&Number1);
 
-    printf("\nEnter the second number: ");\
+    printf("\nEnter the second number: ");
     scanf("%d",&Number2);
 
-    printf("\nEnter the third number: ");\
+    printf("\nEnter the third number: ");
     scanf("%d",&Number3);
 
     //Compute the sum

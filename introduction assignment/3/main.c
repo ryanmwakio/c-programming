@@ -3,8 +3,7 @@
 
 int main()
 {
-    int length;
-    int width;
+    int length, width;
     printf("\nEnter the length of the rectangle: ");
     scanf("%d",&length);
 
