@@ -12,7 +12,7 @@ int main()
     //Calculate length
     meters=centimeters*0.01;
 
-    printf("\n\tLength is %d meters \n",&meters);
+    printf("\n\tLength is %d meters \n",meters);
 
     return 0;
 }

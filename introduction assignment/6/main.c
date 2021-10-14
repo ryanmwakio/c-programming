@@ -10,7 +10,7 @@ int main()
     scanf("%.2f",&celcious);
 
     farenheight=celcious*((9/5)+32);
-    printf("\n\tTemperature is %.2f degrees farenheight\n",&farenheight);
+    printf("\n\tTemperature is %.2f degrees farenheight\n",farenheight);
 
     return 0;
 }
