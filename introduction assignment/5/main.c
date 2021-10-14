@@ -13,7 +13,7 @@ int main()
     meters=centimeters*0.01;
 
     // Output
-    printf("\n\tLength is %d meters \n",meters);
+    printf("\n\t%d cm = %d meters \n", centimeters, meters);
 
     return 0;
 }
