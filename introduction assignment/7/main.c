@@ -5,7 +5,7 @@ int main()
 {
     int distanceTravelled, timeTaken;
 
-    // Receiving inputs
+    // Inputs
     printf("\nEnter the distance Travelled in meters: ");
     scanf("%d",&distanceTravelled);
 

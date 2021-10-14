@@ -3,21 +3,20 @@
 
 int main()
 {
-    //Get the base and height of the triangle
-    int base;
-    int height;
+    int base, height;
 
+    // Input
     printf("\nEnter the base of the triangle: ");
     scanf("%d",&base);
 
     printf("\nEnter the height of the triangle: ");
     scanf("%d",&height);
 
+    // Conversion
     float area=0.5*base*height;
 
+    // Output
     printf("\n\tArea: %.2f\n",area);
-
-
 
     return 0;
 }

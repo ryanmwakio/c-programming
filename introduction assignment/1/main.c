@@ -3,7 +3,7 @@
 
 int main()
 {
-    //Get the numbers
+    // Inputs
     int Number1, Number2, Number3;
     printf("Enter the first number: ");
     scanf("%d",&Number1);
@@ -14,15 +14,16 @@ int main()
     printf("\nEnter the third number: ");
     scanf("%d",&Number3);
 
-    //Compute the sum
+    // Compute the sum
     int sum=Number1+Number2+Number3;
 
-    //Compute the product
+    // Compute the product
     int product=Number1*Number2*Number3;
 
-    //Compute average
+    // Compute average
     float average=sum/3;
 
+    // Output
     printf("\n\t Sum: %d \n\t Product: %d \n\t Average: %.2f\n",sum,product,average);
 
     return 0;
