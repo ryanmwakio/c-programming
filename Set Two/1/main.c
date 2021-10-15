@@ -11,7 +11,7 @@ int main()
 
     remainder=number%2;
     if (remainder == 0)
-        printf("\n\tNumber is even");
+        printf("\n\tNumber is even\n");
     else
         printf("\n\tNumber is odd\n");
 
