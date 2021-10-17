@@ -1,34 +1,50 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+ {
+    char gender;
+    double earning, tax, earningAfterTax, taxedAmount;
 
-void main( )
-{
-    int earning;
-    char gender = "m";
-    int genderTwo;
-
-    // Input
-    printf("\nEnter Gender(m/f): ");
+   // Inputs
+    printf("\nEnter the gender(m/f): ");
     scanf("%c", &gender);
-    printf("\nEnter your salary: ");
-    scanf("%d", &earning);
+    printf("\nEnter the earning OF the person: ");
+    scanf("%lf", &earning);
 
-    // due tolimits of c 🤦🏾‍♂️
-    if (gender = "f")
-        genderTwo = 0;
-    else
-        genderTwo = 1;
+    // computation
+    switch(gender){
+    case 'f':
+        if(earning<15000){
+            tax=earning*0.12;
+            earningAfterTax=earning- tax;
+            taxedAmount = earning - earningAfterTax;
 
-    // Computation
-    if ((genderTwo==0) && (earning<15000))
-        printf("\n\tYour tax rate is 12 percent.\n");
-    else if ((genderTwo==0) && (earning>=15000))
-        printf("\n\tYour tax rate is 14 percent.\n");
-    else if (!(genderTwo==0) && (earning<14000))
-        printf("\n\tYour tax rate is 13 percent.\n");
-    else if (!(genderTwo==0) && (earning>=14000))
-        printf("\n\tYour tax rate is 15 percent.\n");
-    else
-        printf("\nWrong Data\n");
+        }else if(earning>15000 || earning==15000){
+            tax=earning*0.14;
+            earningAfterTax=earning-tax;
+            taxedAmount = earning - earningAfterTax;
+        }
+        printf("\n\tYour Tax rate is 12 percent.\n\tYour Tax is %.2lf", taxedAmount);
+        printf("\n\tThe earning after taxation is : %.2lf\n", earningAfterTax);
+     break;
 
+     case 'm':
+        if(earning<14000){
+            tax=earning*0.13;
+            earningAfterTax=earning - tax;
+            taxedAmount = earning - earningAfterTax;
+        }else if(earning>15000 || earning==15000){
+            tax = earning*0.15;
+            earningAfterTax = earning- tax;
+            taxedAmount = earning - earningAfterTax;
+        }
+        printf("\n\tYour Tax rate is 12 percent.\n\tYour Tax is %.2lf", taxedAmount);
+        printf("\n\tThe earning after taxation is : %.2lf\n",earningAfterTax);
+      break;
+
+      default:
+        printf("\n\n\tINVALID INPUT TRY AGAIN!\n");
+     }
+
+     return 0;
 }
