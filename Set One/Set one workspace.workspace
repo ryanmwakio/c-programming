@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="1) If else/BeerBrandsAndPricesIfElse.cbp" />
+		<Project filename="1) SwitchCase/BeerBrandsAndPricesSwitchCase.cbp" />
+		<Project filename="2) If else/TwoNumbersAndOperatorIfElse.cbp" />
+		<Project filename="2) Switch case/TwoNumbersAndOperator.cbp" />
+		<Project filename="3/GrossPayAndTax.cbp" />
+		<Project filename="4/4) ComputeTwoNumbers.cbp" />
+		<Project filename="5/5) NegativeAndPositiveNumber.cbp" />
+		<Project filename="6/6) DivideBiggerNumberBySmallerNumber.cbp" />
+		<Project filename="7/7) AreaOfReactangleCircleTriangle.cbp" />
+		<Project filename="8/8) SpeedLimitLevy.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

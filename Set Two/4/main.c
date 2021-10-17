@@ -19,14 +19,14 @@ int main()
         y = a + b + c;
     }else if (x < 5){
 
-    // for 3x^2-4y+12
+    // for y=3x^2-4y+12
 
         a = (3*x*x)/5;
         b = 12/5;
         y = a + b;
     }else if (x == 5){
 
-    // for 6x-5
+    // for y=6x-5
 
         a = 6*5;
         c = -5;

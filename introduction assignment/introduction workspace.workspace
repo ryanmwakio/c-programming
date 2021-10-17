@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="1/1.cbp" />
+		<Project filename="2/2) AreaAndCircumferenceCircle.cbp" />
+		<Project filename="3/3) AreaAndPerimeterRectangle.cbp" />
+		<Project filename="4/4) AreaRightAngledTriangle.cbp" />
+		<Project filename="5/main.cbp" />
+		<Project filename="6/main.cbp" />
+		<Project filename="7/main.cbp" />
+		<Project filename="8/8.cbp" />
+		<Project filename="9/9.cbp" />
+		<Project filename="10/10.cbp" />
+		<Project filename="11/11.cbp" />
+		<Project filename="12) For_loops/12) For_loops.cbp" />
+		<Project filename="12) while_loops/12) while_loops.cbp" />
+		<Project filename="12) Do while loops/12) Do while loops.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

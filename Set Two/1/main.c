@@ -9,6 +9,7 @@ int main()
     printf("\nInput an integer: ");
     scanf("%d", &number);
 
+    // computation
     remainder=number%2;
     if (remainder == 0)
         printf("\n\tNumber is even\n");

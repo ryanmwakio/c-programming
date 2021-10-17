@@ -3,19 +3,19 @@
 
 int main()
 {
-    int grams;
+    double grams;
 
     // Input
     printf("\nEnter weight in grams: ");
-    scanf("%d", &grams);
+    scanf("%lf", &grams);
 
     // Conversion
-    float kilograms=grams/1000;
-    float packages=grams/10;
+    float kilograms=grams/1000.0;
+    int packages=1000/grams;
 
     // Output
-    printf("\n\tThe weight of the package is %.2f kilograms.\n", kilograms);
-    printf("\n\tIt takes %.f such packages to form one kilogram.\n", packages);
+    printf("\n\tThe weight of the package is %.1f kilograms.\n", kilograms);
+    printf("\n\tIt takes %d such packages to form one kilogram.\n", packages);
 
     return 0;
 

@@ -3,20 +3,20 @@
 
 int main()
 {
-    int distanceTravelled, timeTaken;
+    double distanceTravelled, timeTaken;
 
     // Inputs
     printf("\nEnter the distance Travelled in meters: ");
-    scanf("%d",&distanceTravelled);
+    scanf("%lf",&distanceTravelled);
 
     printf("\nEnter the time taken in minutes: ");
-    scanf("%d",&timeTaken);
+    scanf("%lf",&timeTaken);
 
     // Conversion
     float speed=(distanceTravelled/1000)*(timeTaken/60);
 
     // Output
-    printf("\n\tYour speed is %.2f kilometers per hour\n",speed);
+    printf("\n\tYour speed is %.f kilometers per hour\n",speed);
 
     return 0;
 }
