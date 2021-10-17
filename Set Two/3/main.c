@@ -16,12 +16,12 @@ int main()
     case 'f':
         if(earning<15000){
             tax=earning*0.12;
-            earningAfterTax=earning- tax;
+            earningAfterTax = earning - tax;
             taxedAmount = earning - earningAfterTax;
 
         }else if(earning>15000 || earning==15000){
             tax=earning*0.14;
-            earningAfterTax=earning-tax;
+            earningAfterTax = earning - tax;
             taxedAmount = earning - earningAfterTax;
         }
         printf("\n\tYour Tax rate is 12 percent.\n\tYour Tax is %.2lf", taxedAmount);
