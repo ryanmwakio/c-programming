@@ -3,19 +3,27 @@
 
 int main ()
 {
+	int salary;
+	float taxAmount, netSalary;
 
-	float grossSalary, netSalary, taxAmount;
+	// Input
+	printf("\nEnter salary amount: ");
+	scanf("%d", &salary);
 
-	printf("Enter the gross_salary: ");
-	scanf("%f",&grossSalary);
-
-	if(grossSalary>20000){
-        taxAmount = grossSalary * 15/100 ;
-        printf("\nThe taxAmount is %f\n",taxAmount);
-	}else if(grossSalary>=10000 && grossSalary<=20000){
-		printf ("\nThe taxAmount is %f\n\n",taxAmount,grossSalary * 10 % );
-	}else if(grossSalary<10000){
-        printf("\nNot taxed\n\n");
+	// Computation
+	if (salary >= 20000){
+		taxAmount = salary * .15;
+		netSalary = salary - taxAmount;
+		printf("\n\tYour tax amount is %.f", taxAmount);
+        printf("\n\tYour net Salary is %.f\n", netSalary);
+	}else if(salary > 10000 && salary < 20000){
+		taxAmount = salary * .1;
+		netSalary = salary - taxAmount;
+		printf("\n\tYour tax amount is %.f", taxAmount);
+        printf("\n\tYour net Salary is %.f\n", netSalary);
+	}else {
+		printf("\n\tYou are not taxed");
+		printf("\n\tYour salary is %d\n", salary);
 	}
 
     return 0;
