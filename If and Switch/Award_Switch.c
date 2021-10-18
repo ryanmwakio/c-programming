@@ -15,7 +15,10 @@ void main( )
 	case 'C':
 	case 'D': printf("\nThe student has a Pass.");
 		  break;
-	default:   printf("\nThe student got a fail.");
+	case 'E': printf("\nTHe student got a ");
+          break;
+    default: printf("\n%c is an invalid grade");
+
 	}
 	printf("\n\n");
 }

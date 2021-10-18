@@ -3,7 +3,7 @@
 
 int main()
 {
-    const float pi=3.142;
+    const float pi=22/7.0;
 
     // Get radius
     int radius;
@@ -17,7 +17,7 @@ int main()
     float circumference=pi*(radius*2);
 
     // Output
-    printf("\n\tArea: %.2f \n\t Circumference: %.2f\n",area,circumference);
+    printf("\n\tArea: %.f \n\tCircumference: %.f\n",area,circumference);
 
     return 0;
 }
