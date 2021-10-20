@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 int main()
  {
     char gender;
@@ -14,13 +15,13 @@ int main()
     // computation
     switch(gender){
     case 'f':
-        if(earning<15000){
-            tax=earning*0.12;
+        if(earning < 15000){
+            tax = earning * 12.0/100;
             earningAfterTax = earning - tax;
             taxedAmount = earning - earningAfterTax;
-
-        }else if(earning>15000 || earning==15000){
-            tax=earning*0.14;
+        }
+        else if((earning > 15000) || (earning == 15000)){
+            tax = earning * 14.0/100;
             earningAfterTax = earning - tax;
             taxedAmount = earning - earningAfterTax;
         }
@@ -29,13 +30,14 @@ int main()
      break;
 
      case 'm':
-        if(earning<14000){
-            tax=earning*0.13;
-            earningAfterTax=earning - tax;
+        if(earning < 14000){
+            tax = earning * 13.0/100;
+            earningAfterTax = earning - tax;
             taxedAmount = earning - earningAfterTax;
-        }else if(earning>15000 || earning==15000){
-            tax = earning*0.15;
-            earningAfterTax = earning- tax;
+        }
+        else if((earning > 15000) || (earning == 15000)){
+            tax = earning * 0.15;
+            earningAfterTax = earning - tax;
             taxedAmount = earning - earningAfterTax;
         }
         printf("\n\tYour Tax rate is 12 percent.\n\tYour Tax is %.2lf", taxedAmount);
