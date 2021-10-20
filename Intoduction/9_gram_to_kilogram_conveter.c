@@ -15,12 +15,11 @@ int main()
 
     // Output
     printf("\n\tThe weight of the package is %.1f kilograms.\n", kilograms);
-    
-    if(grams >= 1000 )
-        printf("\n\tIt takes 1 such packages to form one kilogram.\n", packages);
+
+    if (grams >= 1000)
+        printf("\n\tIt takes 1 such package to form one kilogram.\n", packages);
     else
         printf("\n\tIt takes %d such packages to form one kilogram.\n", packages);
 
     return 0;
-
 }
