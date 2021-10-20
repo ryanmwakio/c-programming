@@ -10,7 +10,6 @@ int main()
     scanf("%f", &number);
 
     // Remainder
-
     rem9 = number % 9;
 
     // computation
